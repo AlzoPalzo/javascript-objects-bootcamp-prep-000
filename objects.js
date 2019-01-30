@@ -2,7 +2,7 @@ var playlist = {tempahT: "next hype"}
 
 function updatePlaylist(playlist, artist, song)
 {
-  return Object.assign(playlist, {[artistName]: songTitle})
+  return Object.assign(playlist, {[artist]: song})
 }
 function removeFromPlaylist(playlist, artist)
 {
