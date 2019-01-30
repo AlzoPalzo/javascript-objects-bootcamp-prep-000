@@ -1,6 +1,6 @@
-var playlist = {}
+var playlist = {tempahT: "next hype"}
 
-function updatePlaylist(playlist, artist, song)
+function updatePlaylist(playlist, artistName, songTitle)
 {
-  return Object.assign({}, playlist, {artist: [song]})
+  return Object.assign({}, playlist, {artistName: [songTitle]})
 }
