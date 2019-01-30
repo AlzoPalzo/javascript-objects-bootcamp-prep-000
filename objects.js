@@ -1,4 +1,4 @@
-var playlist = {tempahT: "next hype"}
+var playlist = {}
 
 function updatePlaylist(playlist, artist, song)
 {
